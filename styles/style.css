@@ -115,6 +115,18 @@
     z-index: 2;
  }
 
+ .banner-logos {
+    max-width: 1110px;
+    margin: 69px auto;
+    border-bottom: 2px solid #e1d0d03b;
+    border-top: 2px solid #e1d0d03b;
+ }
+
+ .banner-logo {
+    padding: 36px 61px;
+    justify-content: space-between;
+ }
+
  @media screen and (max-width: 576px) {
     .navbar, .nav-links {
         flex-direction: column;
@@ -151,7 +163,7 @@
     }
 
     .banner-click img {
-        width: 80%;
+        width: 82%;
         left: 25px;
         top: 30px;
     }
