@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .poppins-semibold {
@@ -42,8 +43,6 @@
     margin-right: 34px;
  }
 
- .nav-links {
- }
 
  .nav-link {
     text-decoration: none;
@@ -115,18 +114,35 @@
     z-index: 2;
  }
 
- .banner-logos {
+ .banner-logo {
     max-width: 1110px;
-    margin: 69px auto;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
     border-bottom: 2px solid #e1d0d03b;
     border-top: 2px solid #e1d0d03b;
+    padding: 30px 0;
+    gap: 61px;
  }
 
- .banner-logo {
-    padding: 36px 61px;
-    justify-content: space-between;
+ .banner-logo img {
+    width: 100%;
  }
 
+ 
+.image-2 {
+    padding-top: 31px;
+  }
+
+.image-3, .image-4 {
+    padding-top: 10px;
+ }
+
+ .center {
+    padding-top: 14px;
+ }
+ 
+ 
  @media screen and (max-width: 576px) {
     .navbar, .nav-links {
         flex-direction: column;
@@ -167,4 +183,24 @@
         left: 25px;
         top: 30px;
     }
+
+    .banner-logo {
+        border-top: 1px solid #fff;
+        width: 70%;
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 10px;
+        gap: 31px;
+    }
+
+    .image-2 {
+        padding-top: 17px;
+    }
+
+    
+    .center {
+        margin-left: 35px;
+        padding-top: 0;
+    }
+
+    
  }
