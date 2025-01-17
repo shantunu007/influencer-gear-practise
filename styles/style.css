@@ -92,7 +92,7 @@
     width: 475px;
     height: 475px;
     border-radius: 50%;
-    border: 1px solid #F1E4FF;
+    border: 2px solid #F1E4FF;
  }
  .circle-2 {
     position: absolute;
@@ -113,4 +113,46 @@
     left: 0;
     bottom: 0;
     z-index: 2;
+ }
+
+ @media screen and (max-width: 576px) {
+    .navbar, .nav-links {
+        flex-direction: column;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner-content {
+        text-align: center;
+        max-width: 404px;
+    }
+
+    .banner-click {
+        right: 0;
+    }
+
+    .banner-title {
+        font-size: 1.75rem;
+    }
+
+    .banner-description {
+        font-size: 0.875rem;
+    }
+
+    .circle-1 {
+        width: 257px;
+        height: 257px;
+    }
+    .circle-2 {
+        width: 180px;
+        height: 180px;
+    }
+
+    .banner-click img {
+        width: 80%;
+        left: 25px;
+        top: 30px;
+    }
  }
