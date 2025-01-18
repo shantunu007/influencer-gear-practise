@@ -180,6 +180,10 @@
    background: rgb(255, 255, 255);
  }
 
+ .collection-card img {
+   width: 100%;
+ }
+
  .product-name {
    font-size: 1.75rem;
    font-weight: 500;
@@ -295,6 +299,18 @@
     .center {
         margin-left: 35px;
         padding-top: 0;
+    }
+
+    
+
+    .card-container {
+      grid-template-columns: repeat(1, 1fr);
+      justify-items: center;
+      width: 100%;
+    }
+
+    .see-more-btn {
+      text-align: center;
     }
 
     
