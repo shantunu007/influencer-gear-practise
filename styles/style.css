@@ -1,5 +1,14 @@
-
+/* poppins font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Inter font */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* roboto font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 .poppins-semibold {
     font-family: "Poppins", serif;
@@ -140,6 +149,92 @@
 
  .center {
     padding-top: 14px;
+ }
+
+ /* popular section styles */
+
+ .popular {
+   max-width: 1047px;
+   margin: 100px auto;
+ }
+
+ .popular-title {
+   font-size: 1.75rem;
+   font-weight: 600;
+   text-align: center;
+   margin-bottom: 30px;
+ }
+
+ .card-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 30px;
+ }
+
+ .collection-card {
+   background-color: #fff;
+   padding: 17px 15px;
+   width: 329px;
+   border-radius: 5px;
+   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+   background: rgb(255, 255, 255);
+ }
+
+ .product-name {
+   font-size: 1.75rem;
+   font-weight: 500;
+   margin-top: 16px;
+ }
+
+ .product-price {
+   font-family: "Inter", serif;
+   font-size: 1.5rem;
+   font-weight: 400;
+   color: rgba(0, 0, 0, 0.87);
+   margin-top: 6px;
+   margin-bottom: 6px;
+ }
+
+ .product-rating .icon {
+   color: #FB8200;
+   padding-right: 3px;
+ }
+
+ .product-rating .opacity-icon {
+   color: #FB8200;
+ }
+
+ .rating-point {
+   color: #5E6366;
+   font-size: 0.875rem;
+   font-weight: 700;
+   margin-left: 8px;
+ }
+
+ .product-description {
+   max-width: 200px;
+   color: #787885;
+   font-size: 0.875rem;
+   font-weight: 700;
+ }
+
+ 
+.see-more-btn {
+   text-align: right;
+   margin-top: 50px;
+ }
+
+ .see-more-btn a {
+   text-decoration: none;
+   color: rgba(224, 44, 109, 0.87);
+   font-size: 1rem;
+   font-weight: 700;
+   margin-left: 5px;
+ }
+
+ 
+.see-more-btn a i {
+   padding-left: 5px;
  }
  
  
